@@ -10,6 +10,7 @@ const MyForm = () => {
         price: '',
     });
 
+    //Handles and sets values when inputs are changed
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -18,6 +19,7 @@ const MyForm = () => {
         });
     };
 
+    //Same as handleChange but for numerics
     const handleChangeNum = (e) => {
         const { name, value } = e.target;
       
@@ -32,7 +34,7 @@ const MyForm = () => {
         }
       };
 
-
+    //Clear form
     const handleCancel = () => {
         setFormData({
             name: '',
@@ -43,6 +45,7 @@ const MyForm = () => {
         });
     };
 
+    //Create Form
     return (
     <form className="form">
         <div className="form-group">

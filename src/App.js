@@ -1,6 +1,8 @@
 import MyForm from './myForm';
 import './app.css';
 
+//Created layout for the page
+
 function App() {
     return (
         <div className= "center">

@@ -1,8 +1,9 @@
-
+/*Space out parts of the form*/
 .form-group {
     margin-bottom: 20px;
 }
 
+/*Create the style for submit button*/
 .submit {
     margin-right: 100px;
     border:none; 
@@ -20,6 +21,7 @@
     background-color:rgb(159, 164, 255);
 }
 
+/*Create style for cancel button*/
 .cancel {
     border:none; 
     border-radius:10px; 
@@ -34,6 +36,7 @@
     background-color:rgb(137, 136, 136);
 }
 
+/*Get rid of borders on inputs to maintain the requested look for the midterm*/
 input {
     border: none; 
     border-bottom: 1px solid #000; 

@@ -1,3 +1,5 @@
+/*Small style changes to put the content center screen*/
+
 body {
     width: 980px;
     margin-left: auto;
@@ -11,6 +13,7 @@ body {
     margin-right: auto;
 }
 
+/*Recolour header*/
 h3 {
     color: rgb(117, 117, 251);
 }
