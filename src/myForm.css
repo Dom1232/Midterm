@@ -1,0 +1,43 @@
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.submit {
+    margin-right: 100px;
+    border:none; 
+    border-radius:10px; 
+    padding:10px;
+    background-color:rgb(93, 99, 190);
+    color: white;
+}
+
+.submit:hover {
+    margin-right: 100px;
+    border:none; 
+    border-radius:10px; 
+    padding:10px;
+    background-color:rgb(159, 164, 255);
+}
+
+.cancel {
+    border:none; 
+    border-radius:10px; 
+    padding:10px;
+    background-color:rgb(216, 216, 216);
+}
+
+.cancel:hover {
+    border:none; 
+    border-radius:10px; 
+    padding:10px;
+    background-color:rgb(137, 136, 136);
+}
+
+input {
+    border: none; 
+    border-bottom: 1px solid #000; 
+    outline: none;
+    padding-top: 15px;
+}
+
